@@ -1,0 +1,21 @@
+{
+  "name": "teams-claude-bot",
+  "version": "1.0.0",
+  "description": "Microsoft Teams Bot mit Claude AI Integration",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "botbuilder": "^4.22.0",
+    "restify": "^11.1.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
